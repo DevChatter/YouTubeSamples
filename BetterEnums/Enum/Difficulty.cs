@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace BetterEnums;
+namespace BetterEnums.Enum;
 
 public enum Difficulty
 {
@@ -8,8 +8,8 @@ public enum Difficulty
     Easy,
     [Description("Sword and Story!")]
     Medium,
-    [Description("")]
+    [Description("Blood and Broken Bones!")]
     Hard,
-    [Description("")]
+    [Description("Death March!")]
     VeryHard
 }
