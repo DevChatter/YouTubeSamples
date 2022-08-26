@@ -1,0 +1,29 @@
+{
+  "Name":"DevChatter",
+  "Host":{
+    "Name":"Brendan Enrick",
+    "Twitter":"@Brendoneus"
+  },
+  "Guests":[
+    {
+      "Name":"Guy Royse",
+      "Twitter":"@GuyRoyse",
+      "Appearances": "5"
+    },
+    {
+      "Name":"Sarah Dutkiewicz",
+      "Twitter":"@Sadukie",
+      "Appearances": "1"
+    },
+    {
+      "Name":"David Paquette",
+      "Twitter":"@Dave_Paquette",
+      "Appearances": "3"
+    },
+    {
+      "Name":"James Chambers",
+      "Twitter":"@CanadianJames",
+      "Appearances": "4"
+    }
+  ]
+}
