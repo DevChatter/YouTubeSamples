@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using YouTubeSample;
+
 Console.WriteLine("Hello, World!");
+
+FromHere fromHere = new();
+
+FindThis instance = fromHere.CreateInstance();
