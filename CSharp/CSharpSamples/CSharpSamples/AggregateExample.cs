@@ -19,7 +19,7 @@ public static class AggregateExample
         Console.WriteLine(maxMax);
 
         int product = numbers.Aggregate((accumulate, next) => accumulate * next);
-        Console.WriteLine(aggMax);
+        Console.WriteLine(product);
 
         string[] strings = new[] { "4", "8", "15", "16", "23", "42" };
 
