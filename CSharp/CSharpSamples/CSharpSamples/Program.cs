@@ -4,6 +4,8 @@
     {
         static void Main(string[] args)
         {
+            AggregateExample.Sample();
+
             // Null Conditional
             Console.WriteLine(NullExamples.GetCity(null));
             // Null Coalescing
