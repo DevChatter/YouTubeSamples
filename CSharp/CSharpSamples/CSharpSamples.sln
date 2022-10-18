@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSamples", "CSharpSamples\CSharpSamples.csproj", "{D0405011-FF6D-4A0A-9370-73E118A5A859}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpanSample", "SpanSample\SpanSample.csproj", "{BABA5040-4B98-41C3-9B06-D071CA958E93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D0405011-FF6D-4A0A-9370-73E118A5A859}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0405011-FF6D-4A0A-9370-73E118A5A859}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0405011-FF6D-4A0A-9370-73E118A5A859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BABA5040-4B98-41C3-9B06-D071CA958E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABA5040-4B98-41C3-9B06-D071CA958E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABA5040-4B98-41C3-9B06-D071CA958E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABA5040-4B98-41C3-9B06-D071CA958E93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
