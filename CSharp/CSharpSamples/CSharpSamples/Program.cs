@@ -1,21 +1,23 @@
-﻿namespace CSharpSamples
+﻿using CSharpSamples.Models;
+
+namespace CSharpSamples
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            AggregateExample.Sample();
+            ForEach.NormalLoop();
+            ForEach.EnumerableLoop();
+            ForEach.SillyLoop();
 
-            // Null Conditional
-            Console.WriteLine(NullExamples.GetCity(null));
-            // Null Coalescing
-            Console.WriteLine(NullExamples.GetCityOrDefault(null));
-            // Null Coalescing Assignment
-            Console.WriteLine(NullExamples.GetCityOrSetDefault(null));
+            // Person person = GetPerson();
 
-            // Ternary
-            Console.WriteLine(Ternary.GetAgeGroupName(25));
-            Ternary.SayHello();
+            // if (person is null) 
+            //     Console.WriteLine("Person is null.\n");
+            // if (person == null) 
+            //     Console.WriteLine("This won't run.\n");
         }
+
+        private static Person GetPerson() => null;
     }
 }

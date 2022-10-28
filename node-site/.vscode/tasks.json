@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Say Hello on Start Up",
+        "type": "shell",
+        "command": "npm run say-hello",
+        "windows": {
+          "command": "npm run say-hello"
+        },
+        "presentation": {
+          "reveal": "always",
+          "panel": "new"
+        },
+        "runOptions": { "runOn": "folderOpen" }
+      }
+    ]
+  }
+  
